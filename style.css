@@ -4,7 +4,7 @@ body {
   scroll-behavior: smooth;
 }
 header {
-  background-color: #333;
+  background-color: #a85fe4;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -13,6 +13,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 90px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
 }
 .logo {
   color: white;
@@ -55,13 +57,13 @@ section.active {
   transform: translateY(0);
 }
 #home {
-  background-color: #f2f2f2;
+  background-color: #dcb2f5;
 }
 #cardapio {
-  background-color: #fff;
+  background-color: #dcb2f5;
 }
 #sobre {
-  background-color: #f9f9f9;
+  background-color:#dcb2f5;
 }
 .grid-cardapio {
   display: flex;
@@ -74,24 +76,30 @@ section.active {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: 200px;
 }
 .card {
-  background-color: #eee;
+  background-color: #5e2494;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s;
-  width: 200px;
+  width: 350px;
+  height: 250px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.8);
 }
 .card img {
-  width: 100%;
+  margin-top: 9%;
+  width: 50%;
   height: 150px;
   object-fit: cover;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
 }
 .card:hover {
   transform: translateY(-10px);
 }
 .card p {
-  margin: 10px 0;
-  font-size: 16px;
+  margin: 3px 0;
+  font-size: 22px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
